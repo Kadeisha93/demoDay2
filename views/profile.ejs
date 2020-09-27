@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <title>Meal to Gate</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h3>Profile</h3>
+        <a href="/logout" class="btn btn-default btn-sm">Logout
+    </div>
+    <div class="col-sm-4">
+
+      <form action="/messages" method="post">
+        <h2>Enter your flight details</h2>
+        <!-- <section> -->
+          <p>Enter Flight Number</p>
+            <p><input type="text" placeholder="Flight Number" name="msg"></p>
+          <p>Enter Boarding Time</p>
+            <input type="text" placeholder="Boarding Time" name="msg">
+          <p>Enter Gate Number</p>
+            <input type="text" placeholder="Gate Number" name="msg">
+    </div>
+    <div class="col-sm-8">
+            <h2>Place your order</h2>
+
+
+            <h3>Restaurant: Pizza Pizza</h3>
+            <div>
+              <form class="" action="/restprofile" method="post">
+
+              <select class="">
+                <option value="">Large Cheese Pizza</option>
+                <option value="">Medium Cheese Pizza</option>
+                <option value="">Pepperoni Pizza</option>
+                <option value="">Sausage Pizza</option>
+                <option value="">Veggie Pizza</option>
+                <option value="">Hawaiian Pizza</option>
+              </select>
+            </div>
+
+            <h3>Restaurant: Steak House</h3>
+            <div>
+              <select class="">
+                <option value="">Prime Rib</option>
+                <option value="">T-Bone</option>
+                <option value="">Sirloin</option>
+                <option value="">NY Strip</option>
+                <option value="">Garlic Mashed Potatoes</option>
+                <option value="">Creamy Spinach</option>
+              </select>
+            </div>
+            <h3>Restaurant: See Seafood</h3>
+            <div>
+              <select class="">
+                <option value="">Lobster Roll</option>
+                <option value="">Shrimp</option>
+                <option value="">Calamari</option>
+                <option value="">Catch of the Day</option>
+                <option value="">Fish Filet</option>
+                <option value="">Clam Chowder</option>
+              </select>
+            </div>
+            <h3>Restaurant: Sports Bar &Grill</h3>
+            <div>
+              <select class="">
+                <option value="">Buffalo Wings</option>
+                <option value="">Sweet Chilli Wings</option>
+                <option value="">Chicken Tenders</option>
+                <option value="">Veggie Burger</option>
+                <option value="">Cheeseburger</option>
+                <option value="">Turkey Burger</option>
+              </select>
+            </div>
+            <h3>Restaurant: Going Green</h3>
+            <div>
+              <select class="">
+                <option value="">Cobb Salad</option>
+                <option value="">Chicken Caesar Salad</option>
+                <option value="">Fruit Salad</option>
+                <option value="">Chia Seed Pudding</option>
+                <option value="">Pasta Salad</option>
+                <option value="">Water</option>
+              </select>
+            </div>
+            <div>
+              <button class="sub" type="submit">Submit</button>
+            </div>
+          </form>
+            <div>
+
+            </div>
+<script src="main.js"></script>
+
+</body>
+</html>

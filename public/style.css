@@ -1,0 +1,23 @@
+body{
+  padding-top: 20px;
+  word-wrap:break-word;
+  background-color: rgb(53,171,181);
+}
+img{
+  height: 200px;
+}
+/* button, .btn{
+  background-color: rgb(43, 204, 192)
+} */
+.sub{
+  margin-bottom: 10%;
+}
+h1, h2, h3, .target{
+    font-family: 'Asap', sans-serif;
+    /* color: rgb(70,211,0); */
+}
+a:visited, a:hover, a:active, a:focus {
+   color: rgb(51, 51, 51) !important;
+   text-decoration: none !important;
+   outline: none !important;
+}
